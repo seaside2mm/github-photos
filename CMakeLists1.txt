@@ -1,0 +1,42 @@
+cmake_minimum_required(VERSION 3.7)
+
+project(sample_comparison_with_g2o)
+
+set(SAMPLE_UTILITY_DIR ../utility)
+
+if (CMAKE_COMPILER_IS_GNUCXX)
+	set(CMAKE_CXX_FLAGS "-O3 -Wall")
+endif()
+
+if (WIN32)
+	add_compile_options(/wd4819)
+	add_definitions(-D_SILENCE_CXX17_NEGATORS_DEPRECATION_WARNING)
+
+	# g2o warning suppressions
+	add_compile_options(/wd4244 /wd4251 /wd4267)
+endif()
+
+include_directories(${CMAKE_SOURCE_DIR}/include)
+include_directories(${SAMPLE_UTILITY_DIR})
+
+# OpenCV
+#find_package(OpenCV REQUIRED)
+include_directories("F:\\openvslam-build-vs\\3rd\\opencv-build-vs\\include")
+
+# Eigen
+#find_package(Eigen3 REQUIRED)
+include_directories("F:\\openvslam-build-vs\\3rd\\eigen")
+
+# g2o
+#find_package(g2o REQUIRED)
+include_directories("F:\\openvslam-build-vs\\3rd\\g2o")
+include_directories("F:\\openvslam-build-vs\\3rd\\g2o\\EXTERNAL\\csparse")
+include_directories("F:\\openvslam-build-vs\\3rd\\suitesparse-metis-for-windows\\SuiteSparse\\CXSparse_newfiles\\include")
+add_definitions(-DG2O_USE_VENDORED_CERES)
+
+file(GLOB srcs ./*.cpp ./*.h* ${SAMPLE_UTILITY_DIR}/*.cpp ${SAMPLE_UTILITY_DIR}/*.h*)
+add_executable(sample_comparison_with_g2o ${srcs})
+set(G2O_LIBS_DIR "F:\\openvslam-build-vs\\x64\\Debug")
+set(G2O_LIBS "${G2O_LIBS_DIR}\\g2o.lib" "${G2O_LIBS_DIR}\\g2o_csparse_extension.lib" "${G2O_LIBS_DIR}\\cxsparse.lib")
+
+target_link_libraries(sample_comparison_with_g2o  "F:\\openvslam-build-vs\\x64\\Debug\\opencv.lib" "F:\\openvslam-build-vs\\x64\\Debug\\g2o.lib" "F:\\openvslam-build-vs\\x64\\Debug\\g2o_csparse_extension.lib" "F:\\openvslam-build-vs\\x64\\Debug\\cxsparse.lib" cuda_bundle_adjustment)
