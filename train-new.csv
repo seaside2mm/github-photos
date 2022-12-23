@@ -1,0 +1,2 @@
+path1,path2,H_matrix
+../input/image-matching-challenge-2022/train/british_museum/images/93658023_4980549800.jpg,../input/image-matching-challenge-2022/train/british_museum/images/77723525_5227836172.jpg,{'9.96435796e-01 -1.21564892e-03 -8.43458712e-02 2.05796829e-02 9.73186322e-01 2.29095741e-01 8.18057482e-02 -2.30015008e-01 9.69742706e-01'}
