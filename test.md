@@ -104,3 +104,41 @@ if __name__ == '__main__':
 ```
 
 `my_package`は、カスタムメッセージが含まれるパッケージの実際の名前に置き換えてください。このコードは、カスタムメッセージ形式を使用してUDP通信を介してrtkgnssメッセージをROSパブリッシャーノードで送信する方法を示しています。実際の状況に応じてUDPサーバーのアドレスとポートを設定してください。
+
+
+
+import rospy
+from my_package.msg import MyRTKGNSS
+import socket
+import struct
+
+def callback(data):
+    rospy.loginfo("Received: %f, %f, %f", data.latitude, data.longitude, data.altitude)
+
+def subscriber():
+    rospy.init_node('udp_subscriber', anonymous=True)
+    udp_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    udp_address = ('localhost', 12345)  # 设置UDP服务器地址和端口
+
+    rospy.Subscriber('rtkgnss_topic', MyRTKGNSS, callback)
+
+    while not rospy.is_shutdown():
+        # 接收UDP服务器发送的消息
+        msg_bytes, _ = udp_socket.recvfrom(1024)
+
+        # 解析字节流为MyRTKGNSS消息
+        latitude, longitude, altitude = struct.unpack('!ddd', msg_bytes)
+        rtkgnss_msg = MyRTKGNSS()
+        rtkgnss_msg.latitude = latitude
+        rtkgnss_msg.longitude = longitude
+        rtkgnss_msg.altitude = altitude
+
+        # 调用回调函数处理接收到的消息
+        callback(rtkgnss_msg)
+
+if __name__ == '__main__':
+    try:
+        subscriber()
+    except rospy.ROSInterruptException:
+        pass
+
