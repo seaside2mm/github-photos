@@ -1,0 +1,52 @@
+
+flowchart LR
+
+Mat_Ori --upload--> GpuMat_Ori
+
+subgraph GPU 
+
+GpuMat_Ori --resize--> GpuMat_ResizedImg1
+GpuMat_Ori --resize--> GpuMat_ResizedImg2
+GpuMat_Ori --resize--> GpuMat_ResizedImg3
+GpuMat_Ori --resize--> GpuMat_ResizedImg4
+
+GpuMat_ResizedImg1 --Tile--> GpuMat_TileImg
+GpuMat_ResizedImg2 --Tile--> GpuMat_TileImg
+GpuMat_ResizedImg3 --Tile--> GpuMat_TileImg
+GpuMat_ResizedImg4 --Tile--> GpuMat_TileImg
+GpuMat_TileImg --Fast--> GpuMat_Features
+
+GpuMat_ResizedImg1 --GaussianBlur--> GpuMat_Blur1
+GpuMat_ResizedImg2 --GaussianBlur--> GpuMat_Blur2
+GpuMat_ResizedImg3 --GaussianBlur--> GpuMat_Blur3
+GpuMat_ResizedImg4 --GaussianBlur--> GpuMat_Blur4
+
+GpuMat_Features ----> Sync1
+GpuMat_Blur1    ----> Sync1
+GpuMat_Features ----> Sync2
+GpuMat_Blur2    ----> Sync2
+GpuMat_Features ----> Sync3
+GpuMat_Blur3    ----> Sync3
+GpuMat_Features ----> Sync4
+GpuMat_Blur4    ----> Sync4
+
+Sync1 --Descriptor--> GpuMat_Desc1
+Sync2 --Descriptor--> GpuMat_Desc2
+Sync3 --Descriptor--> GpuMat_Desc3
+Sync4 --Descriptor--> GpuMat_Desc4
+
+end 
+
+subgraph Device2Host
+GpuMat_ResizedImg1 -.-> ResizedImg1
+GpuMat_ResizedImg2 -.-> ResizedImg2
+GpuMat_ResizedImg3  -.-> ResizedImg3
+GpuMat_ResizedImg4  -.-> ResizedImg4
+
+GpuMat_Features  -.-> Features
+
+GpuMat_Desc1  -.->Desc1
+GpuMat_Desc2  -.->Desc2
+GpuMat_Desc3  -.->Desc3
+GpuMat_Desc4  -.->Desc4
+end
