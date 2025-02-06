@@ -1,0 +1,645 @@
+Configuring and building Thirdparty/DBoW2 ...
+Configuring and building ORB_SLAM3 ...
+-- Using flag -std=c++14.
+-- BUILD TYPE:Release
+-- Compiling on Unix
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/ORB_SLAM3/ORB_SLAM3-c-14_comp/build
+Consolidate compiler generated dependencies of target g2o
+[ 21%] Built target g2o
+Consolidate compiler generated dependencies of target ORB_SLAM3
+[ 40%] Built target ORB_SLAM3
+Consolidate compiler generated dependencies of target rgbd_tum
+Consolidate compiler generated dependencies of target rgbd_realsense_D435i
+Consolidate compiler generated dependencies of target stereo_euroc
+Consolidate compiler generated dependencies of target stereo_kitti
+[ 43%] Built target rgbd_tum
+[ 43%] Built target rgbd_realsense_D435i
+[ 44%] Built target stereo_kitti
+[ 45%] Built target stereo_euroc
+Consolidate compiler generated dependencies of target stereo_tum_vi
+Consolidate compiler generated dependencies of target stereo_realsense_t265
+Consolidate compiler generated dependencies of target stereo_realsense_D435i
+Consolidate compiler generated dependencies of target mono_tum
+[ 47%] Built target stereo_realsense_t265
+[ 48%] Built target stereo_tum_vi
+[ 49%] Built target stereo_realsense_D435i
+[ 50%] Built target mono_tum
+Consolidate compiler generated dependencies of target mono_kitti
+Consolidate compiler generated dependencies of target mono_euroc
+Consolidate compiler generated dependencies of target mono_tum_vi
+Consolidate compiler generated dependencies of target mono_realsense_t265
+[ 51%] Built target mono_euroc
+[ 52%] Built target mono_kitti
+[ 53%] Built target mono_tum_vi
+[ 55%] Built target mono_realsense_t265
+Consolidate compiler generated dependencies of target mono_inertial_euroc
+Consolidate compiler generated dependencies of target mono_realsense_D435i
+Consolidate compiler generated dependencies of target mono_inertial_tum_vi
+Consolidate compiler generated dependencies of target mono_inertial_realsense_t265
+[ 57%] Built target mono_inertial_euroc
+[ 58%] Built target mono_realsense_D435i
+[ 60%] Built target mono_inertial_tum_vi
+[ 61%] Built target mono_inertial_realsense_t265
+Consolidate compiler generated dependencies of target mono_inertial_realsense_D435i
+Consolidate compiler generated dependencies of target stereo_inertial_euroc
+Consolidate compiler generated dependencies of target stereo_inertial_tum_vi
+Consolidate compiler generated dependencies of target stereo_inertial_realsense_t265
+[ 62%] Building CXX object CMakeFiles/mono_inertial_realsense_D435i.dir/Examples/Monocular-Inertial/mono_inertial_realsense_D435i.cc.o
+[ 64%] Built target stereo_inertial_euroc
+[ 65%] Built target stereo_inertial_realsense_t265
+[ 67%] Built target stereo_inertial_tum_vi
+Consolidate compiler generated dependencies of target recorder_realsense_D435i
+Consolidate compiler generated dependencies of target recorder_realsense_T265
+[ 69%] Built target recorder_realsense_D435i
+Consolidate compiler generated dependencies of target stereo_inertial_realsense_D435i
+[ 70%] Built target recorder_realsense_T265
+[ 71%] Built target stereo_inertial_realsense_D435i
+Consolidate compiler generated dependencies of target rgbd_tum_old
+Consolidate compiler generated dependencies of target rgbd_realsense_D435i_old
+Consolidate compiler generated dependencies of target rgbd_inertial_realsense_D435i_old
+[ 73%] Built target rgbd_tum_old
+[ 74%] Built target rgbd_realsense_D435i_old
+Consolidate compiler generated dependencies of target stereo_kitti_old
+[ 75%] Built target rgbd_inertial_realsense_D435i_old
+Consolidate compiler generated dependencies of target stereo_euroc_old
+Consolidate compiler generated dependencies of target stereo_tum_vi_old
+[ 77%] Built target stereo_kitti_old
+[ 78%] Built target stereo_euroc_old
+Consolidate compiler generated dependencies of target stereo_realsense_t265_old
+[ 80%] Built target stereo_tum_vi_old
+[ 81%] Built target stereo_realsense_t265_old
+Consolidate compiler generated dependencies of target mono_tum_old
+Consolidate compiler generated dependencies of target stereo_realsense_D435i_old
+Consolidate compiler generated dependencies of target mono_kitti_old
+[ 83%] Built target mono_tum_old
+[ 84%] Built target stereo_realsense_D435i_old
+Consolidate compiler generated dependencies of target mono_euroc_old
+[ 86%] Built target mono_kitti_old
+Consolidate compiler generated dependencies of target mono_tum_vi_old
+[ 87%] Built target mono_euroc_old
+Consolidate compiler generated dependencies of target mono_realsense_t265_old
+[ 88%] Built target mono_tum_vi_old
+[ 89%] Built target mono_realsense_t265_old
+Consolidate compiler generated dependencies of target mono_realsense_D435i_old
+Consolidate compiler generated dependencies of target mono_inertial_euroc_old
+Consolidate compiler generated dependencies of target mono_inertial_tum_vi_old
+[ 90%] Built target mono_realsense_D435i_old
+[ 91%] Built target mono_inertial_euroc_old
+[ 92%] Built target mono_inertial_tum_vi_old
+Consolidate compiler generated dependencies of target mono_inertial_realsense_t265_old
+Consolidate compiler generated dependencies of target mono_inertial_realsense_D435i_old
+Consolidate compiler generated dependencies of target stereo_inertial_euroc_old
+[ 93%] Built target mono_inertial_realsense_t265_old
+[ 95%] Built target mono_inertial_realsense_D435i_old
+[ 96%] Built target stereo_inertial_euroc_old
+Consolidate compiler generated dependencies of target stereo_inertial_tum_vi_old
+Consolidate compiler generated dependencies of target stereo_inertial_realsense_t265_old
+Consolidate compiler generated dependencies of target stereo_inertial_realsense_D435i_old
+[ 97%] Built target stereo_inertial_tum_vi_old
+[ 98%] Built target stereo_inertial_realsense_t265_old
+[100%] Built target stereo_inertial_realsense_D435i_old
+[100%] Linking CXX executable ../Examples/Monocular-Inertial/mono_inertial_realsense_D435i
+[100%] Built target mono_inertial_realsense_D435i
+Starting >>> orbslam3
+Finished <<< orbslam3 [0.23s]
+
+Summary: 1 package finished [0.51s]
+Sensor supports the following options:
+
+  0: Backlight Compensation is not supported
+  1: Brightness is not supported
+  2: Contrast is not supported
+  3: Exposure
+       Description   : Depth Exposure (usec)
+       Current Value : 5000
+  4: Gain
+       Description   : UVC image gain
+       Current Value : 16
+  5: Gamma is not supported
+  6: Hue is not supported
+  7: Saturation is not supported
+  8: Sharpness is not supported
+  9: White Balance is not supported
+  10: Enable Auto Exposure
+       Description   : Enable Auto Exposure
+       Current Value : 0
+  11: Enable Auto White Balance is not supported
+  12: Visual Preset
+       Description   : Advanced-Mode Preset
+       Current Value : 0
+  13: Laser Power
+       Description   : Manual laser power in mw. applicable only when laser power mode is set to Manual
+       Current Value : 150
+  14: Accuracy is not supported
+  15: Motion Range is not supported
+  16: Filter Option is not supported
+  17: Confidence Threshold is not supported
+  18: Emitter Enabled
+       Description   : Emitter select, 0-disable all emitters, 1-enable laser, 2-enable laser auto (opt), 3-enable LED (opt)
+       Current Value : 0
+  19: Frames Queue Size
+       Description   : Max number of frames you can hold at a given time. Increasing this number will reduce frame drops but increase latency, and vice versa
+       Current Value : 16
+  20: Total Frame Drops is not supported
+  21: Fisheye Auto Exposure Mode is not supported
+  22: Power Line Frequency is not supported
+  23: Asic Temperature is not supported
+  24: Error Polling Enabled
+       Description   : Enable / disable polling of camera internal errors
+       Current Value : 1
+  25: Projector Temperature is not supported
+  26: Output Trigger Enabled
+       Description   : Generate trigger from the camera to external device once per frame
+       Current Value : 0
+  27: Motion Module Temperature is not supported
+  28: Depth Units
+       Description   : Number of meters represented by a single depth unit
+       Current Value : 0.001
+  29: Enable Motion Correction is not supported
+  30: Auto Exposure Priority is not supported
+  31: Color Scheme is not supported
+  32: Histogram Equalization Enabled is not supported
+  33: Min Distance is not supported
+  34: Max Distance is not supported
+  35: Texture Source is not supported
+  36: Filter Magnitude is not supported
+  37: Filter Smooth Alpha is not supported
+  38: Filter Smooth Delta is not supported
+  39: Holes Fill is not supported
+  40: Stereo Baseline
+       Description   : Distance in mm between the stereo imagers
+       Current Value : 50.0092
+  41: Auto Exposure Converge Step is not supported
+  42: Inter Cam Sync Mode
+       Description   : Inter-camera synchronization mode: 0:Default, 1:Master, 2:Slave, 3:Full Salve, 4-258:Genlock with burst count of 1-255 frames for each trigger, 259 and 260 for two frames per trigger with laser ON-OFF and OFF-ON.
+       Current Value : 0
+  43: Stream Filter is not supported
+  44: Stream Format Filter is not supported
+  45: Stream Index Filter is not supported
+  46: Emitter On Off
+       Description   : Alternating emitter pattern, toggled on/off on per-frame basis
+       Current Value : 0
+  47: Zero Order Point X is not supported
+  48: Zero Order Point Y is not supported
+  49: LDD temperature is not supported
+  50: Mc Temperature is not supported
+  51: Ma Temperature is not supported
+  52: Hardware Preset is not supported
+  53: Global Time Enabled
+       Description   : Enable/Disable global timestamp
+       Current Value : 1
+  54: Apd Temperature is not supported
+  55: Enable Mapping is not supported
+  56: Enable Relocalization is not supported
+  57: Enable Pose Jumping is not supported
+  58: Enable Dynamic Calibration is not supported
+  59: Depth Offset is not supported
+  60: Led Power is not supported
+  61: Zero Order Enabled is not supported
+  62: Enable Map Preservation is not supported
+  63: Freefall Detection Enabled is not supported
+  64: Receiver Gain is not supported
+  65: Post Processing Sharpening is not supported
+  66: Pre Processing Sharpening is not supported
+  67: Noise Filtering is not supported
+  68: Invalidation Bypass is not supported
+  69: Digital Gain is not supported
+  70: Sensor Mode is not supported
+  71: Emitter Always On
+       Description   : Emitter always on mode: 0:disabled(default), 1:enabled
+       Current Value : 0
+  72: Thermal Compensation is not supported
+  73: Trigger Camera Accuracy Health is not supported
+  74: Reset Camera Accuracy Health is not supported
+  75: Host Performance is not supported
+  76: Hdr Enabled
+       Description   : HDR Option
+       Current Value : 0
+  77: Sequence Name
+       Description   : HDR Option
+       Current Value : 0
+  78: Sequence Size
+       Description   : HDR Option
+       Current Value : 2
+  79: Sequence Id
+       Description   : HDR Option
+       Current Value : 0
+  80: Humidity Temperature is not supported
+  81: Enable Max Usable Range is not supported
+  82: Alternate IR is not supported
+  83: Noise Estimation is not supported
+  84: Enable IR Reflectivity is not supported
+  85: Auto Exposure Limit
+       Description   : Exposure limit is in microseconds. If the requested exposure limit is greater than frame time, it will be set to frame time at runtime. Setting will not take effect until next streaming session.
+       Current Value : 5000
+  86: Auto Gain Limit
+       Description   : Gain limits ranges from 16 to 248. If the requested gain limit is less than 16, it will be set to 16. If the requested gain limit is greater than 248, it will be set to 248. Setting will not take effect until next streaming session.
+       Current Value : 248
+  87: Auto Rx Sensitivity is not supported
+  88: Transmitter Frequency is not supported
+  89: Vertical Binning is not supported
+  90: Receiver Sensitivity is not supported
+  91: Auto Exposure Limit Toggle
+       Description   : Toggle Auto-Exposure Limit
+       Current Value : 1
+  92: Auto Gain Limit Toggle
+       Description   : Toggle Auto-Gain Limit
+       Current Value : 0
+  93: Emitter Frequency is not supported
+  94: Auto Exposure Mode is not supported
+  95: Ohm Temperature is not supported
+  96: Soc Pvt Temperature is not supported
+  97: Gyro Sensitivity is not supported
+Sensor supports the following options:
+
+  0: Backlight Compensation
+       Description   : Enable / disable backlight compensation
+       Current Value : 0
+  1: Brightness
+       Description   : UVC image brightness
+       Current Value : 0
+  2: Contrast
+       Description   : UVC image contrast
+       Current Value : 50
+  3: Exposure
+       Description   : Controls exposure time of color camera. Setting any value will disable auto exposure
+       Current Value : 166
+  4: Gain
+       Description   : UVC image gain
+       Current Value : 64
+  5: Gamma
+       Description   : UVC image gamma setting
+       Current Value : 300
+  6: Hue
+       Description   : UVC image hue
+       Current Value : 0
+  7: Saturation
+       Description   : UVC image saturation setting
+       Current Value : 64
+  8: Sharpness
+       Description   : UVC image sharpness setting
+       Current Value : 50
+  9: White Balance
+       Description   : Controls white balance of color image. Setting any value will disable auto white balance
+       Current Value : 4600
+  10: Enable Auto Exposure
+       Description   : Enable / disable auto-exposure
+       Current Value : 1
+  11: Enable Auto White Balance
+       Description   : Enable / disable auto-white-balance
+       Current Value : 1
+  12: Visual Preset is not supported
+  13: Laser Power is not supported
+  14: Accuracy is not supported
+  15: Motion Range is not supported
+  16: Filter Option is not supported
+  17: Confidence Threshold is not supported
+  18: Emitter Enabled is not supported
+  19: Frames Queue Size
+       Description   : Max number of frames you can hold at a given time. Increasing this number will reduce frame drops but increase latency, and vice versa
+       Current Value : 16
+  20: Total Frame Drops is not supported
+  21: Fisheye Auto Exposure Mode is not supported
+  22: Power Line Frequency
+       Description   : Power Line Frequency
+       Current Value : 3
+  23: Asic Temperature is not supported
+  24: Error Polling Enabled is not supported
+  25: Projector Temperature is not supported
+  26: Output Trigger Enabled is not supported
+  27: Motion Module Temperature is not supported
+  28: Depth Units is not supported
+  29: Enable Motion Correction is not supported
+  30: Auto Exposure Priority
+       Description   : Restrict Auto-Exposure to enforce constant FPS rate. Turn ON to remove the restrictions (may result in FPS drop)
+       Current Value : 0
+  31: Color Scheme is not supported
+  32: Histogram Equalization Enabled is not supported
+  33: Min Distance is not supported
+  34: Max Distance is not supported
+  35: Texture Source is not supported
+  36: Filter Magnitude is not supported
+  37: Filter Smooth Alpha is not supported
+  38: Filter Smooth Delta is not supported
+  39: Holes Fill is not supported
+  40: Stereo Baseline is not supported
+  41: Auto Exposure Converge Step is not supported
+  42: Inter Cam Sync Mode is not supported
+  43: Stream Filter is not supported
+  44: Stream Format Filter is not supported
+  45: Stream Index Filter is not supported
+  46: Emitter On Off is not supported
+  47: Zero Order Point X is not supported
+  48: Zero Order Point Y is not supported
+  49: LDD temperature is not supported
+  50: Mc Temperature is not supported
+  51: Ma Temperature is not supported
+  52: Hardware Preset is not supported
+  53: Global Time Enabled
+       Description   : Enable/Disable global timestamp
+       Current Value : 1
+  54: Apd Temperature is not supported
+  55: Enable Mapping is not supported
+  56: Enable Relocalization is not supported
+  57: Enable Pose Jumping is not supported
+  58: Enable Dynamic Calibration is not supported
+  59: Depth Offset is not supported
+  60: Led Power is not supported
+  61: Zero Order Enabled is not supported
+  62: Enable Map Preservation is not supported
+  63: Freefall Detection Enabled is not supported
+  64: Receiver Gain is not supported
+  65: Post Processing Sharpening is not supported
+  66: Pre Processing Sharpening is not supported
+  67: Noise Filtering is not supported
+  68: Invalidation Bypass is not supported
+  69: Digital Gain is not supported
+  70: Sensor Mode is not supported
+  71: Emitter Always On is not supported
+  72: Thermal Compensation is not supported
+  73: Trigger Camera Accuracy Health is not supported
+  74: Reset Camera Accuracy Health is not supported
+  75: Host Performance is not supported
+  76: Hdr Enabled is not supported
+  77: Sequence Name is not supported
+  78: Sequence Size is not supported
+  79: Sequence Id is not supported
+  80: Humidity Temperature is not supported
+  81: Enable Max Usable Range is not supported
+  82: Alternate IR is not supported
+  83: Noise Estimation is not supported
+  84: Enable IR Reflectivity is not supported
+  85: Auto Exposure Limit is not supported
+  86: Auto Gain Limit is not supported
+  87: Auto Rx Sensitivity is not supported
+  88: Transmitter Frequency is not supported
+  89: Vertical Binning is not supported
+  90: Receiver Sensitivity is not supported
+  91: Auto Exposure Limit Toggle is not supported
+  92: Auto Gain Limit Toggle is not supported
+  93: Emitter Frequency is not supported
+  94: Auto Exposure Mode is not supported
+  95: Ohm Temperature is not supported
+  96: Soc Pvt Temperature is not supported
+  97: Gyro Sensitivity is not supported
+Sensor supports the following options:
+
+  0: Backlight Compensation is not supported
+  1: Brightness is not supported
+  2: Contrast is not supported
+  3: Exposure is not supported
+  4: Gain is not supported
+  5: Gamma is not supported
+  6: Hue is not supported
+  7: Saturation is not supported
+  8: Sharpness is not supported
+  9: White Balance is not supported
+  10: Enable Auto Exposure is not supported
+  11: Enable Auto White Balance is not supported
+  12: Visual Preset is not supported
+  13: Laser Power is not supported
+  14: Accuracy is not supported
+  15: Motion Range is not supported
+  16: Filter Option is not supported
+  17: Confidence Threshold is not supported
+  18: Emitter Enabled is not supported
+  19: Frames Queue Size
+       Description   : Max number of frames you can hold at a given time. Increasing this number will reduce frame drops but increase latency, and vice versa
+       Current Value : 16
+  20: Total Frame Drops is not supported
+  21: Fisheye Auto Exposure Mode is not supported
+  22: Power Line Frequency is not supported
+  23: Asic Temperature is not supported
+  24: Error Polling Enabled is not supported
+  25: Projector Temperature is not supported
+  26: Output Trigger Enabled is not supported
+  27: Motion Module Temperature is not supported
+  28: Depth Units is not supported
+  29: Enable Motion Correction
+       Description   : Enable/Disable Automatic Motion Data Correction
+       Current Value : 1
+  30: Auto Exposure Priority is not supported
+  31: Color Scheme is not supported
+  32: Histogram Equalization Enabled is not supported
+  33: Min Distance is not supported
+  34: Max Distance is not supported
+  35: Texture Source is not supported
+  36: Filter Magnitude is not supported
+  37: Filter Smooth Alpha is not supported
+  38: Filter Smooth Delta is not supported
+  39: Holes Fill is not supported
+  40: Stereo Baseline is not supported
+  41: Auto Exposure Converge Step is not supported
+  42: Inter Cam Sync Mode is not supported
+  43: Stream Filter is not supported
+  44: Stream Format Filter is not supported
+  45: Stream Index Filter is not supported
+  46: Emitter On Off is not supported
+  47: Zero Order Point X is not supported
+  48: Zero Order Point Y is not supported
+  49: LDD temperature is not supported
+  50: Mc Temperature is not supported
+  51: Ma Temperature is not supported
+  52: Hardware Preset is not supported
+  53: Global Time Enabled
+       Description   : Enable/Disable global timestamp
+       Current Value : 1
+  54: Apd Temperature is not supported
+  55: Enable Mapping is not supported
+  56: Enable Relocalization is not supported
+  57: Enable Pose Jumping is not supported
+  58: Enable Dynamic Calibration is not supported
+  59: Depth Offset is not supported
+  60: Led Power is not supported
+  61: Zero Order Enabled is not supported
+  62: Enable Map Preservation is not supported
+  63: Freefall Detection Enabled is not supported
+  64: Receiver Gain is not supported
+  65: Post Processing Sharpening is not supported
+  66: Pre Processing Sharpening is not supported
+  67: Noise Filtering is not supported
+  68: Invalidation Bypass is not supported
+  69: Digital Gain is not supported
+  70: Sensor Mode is not supported
+  71: Emitter Always On is not supported
+  72: Thermal Compensation is not supported
+  73: Trigger Camera Accuracy Health is not supported
+  74: Reset Camera Accuracy Health is not supported
+  75: Host Performance is not supported
+  76: Hdr Enabled is not supported
+  77: Sequence Name is not supported
+  78: Sequence Size is not supported
+  79: Sequence Id is not supported
+  80: Humidity Temperature is not supported
+  81: Enable Max Usable Range is not supported
+  82: Alternate IR is not supported
+  83: Noise Estimation is not supported
+  84: Enable IR Reflectivity is not supported
+  85: Auto Exposure Limit is not supported
+  86: Auto Gain Limit is not supported
+  87: Auto Rx Sensitivity is not supported
+  88: Transmitter Frequency is not supported
+  89: Vertical Binning is not supported
+  90: Receiver Sensitivity is not supported
+  91: Auto Exposure Limit Toggle is not supported
+  92: Auto Gain Limit Toggle is not supported
+  93: Emitter Frequency is not supported
+  94: Auto Exposure Mode is not supported
+  95: Ohm Temperature is not supported
+  96: Soc Pvt Temperature is not supported
+  97: Gyro Sensitivity
+       Description   : gyro sensitivity resolutions, lowers the dynamic range for a more accurate readings
+       Current Value : 1
+Tbc = 
+1, 0, 0, -0.00552
+0, 1, 0, 0.0051
+0, 0, 1, 0.01174
+ fx = 383.423
+ fy = 383.423
+ cx = 321.188
+ cy = 239.852
+ height = 480
+ width = 640
+ Coeff = 0, 0, 0, 0, 0, 
+ Model = Brown Conrady
+
+ORB-SLAM3 Copyright (C) 2017-2020 Carlos Campos, Richard Elvira, Juan J. Gómez, José M.M. Montiel and Juan D. Tardós, University of Zaragoza.
+ORB-SLAM2 Copyright (C) 2014-2016 Raúl Mur-Artal, José M.M. Montiel and Juan D. Tardós, University of Zaragoza.
+This program comes with ABSOLUTELY NO WARRANTY;
+This is free software, and you are welcome to redistribute it
+under certain conditions. See LICENSE.txt.
+
+Input sensor was set to: Monocular-Inertial
+Vocabulary/ORBvoc.txt
+Vocabulary/ORBvoc.txt
+
+Loading ORB Vocabulary. This could take a while...
+Vocabulary loaded!
+
+Initialization of Atlas from scratch 
+Creation of new map with id: 0
+Creation of new map with last KF id: 0
+mspMaps size: 1
+Seq. Name: 
+
+Camera Parameters: 
+- Camera: Pinhole
+- Image scale: 1
+- fx: 384.862
+- fy: 386.543
+- cx: 322.889
+- cy: 238.535
+- k1: 0.00964137
+- k2: -0.0117611
+- p1: -0.00124882
+- p2: 0.00110386
+- fps: 30
+- color order: RGB (ignored if grayscale)
+
+ORB Extractor Parameters: 
+- Number of Features: 1250
+- Scale Levels: 8
+- Scale Factor: 1.2
+- Initial Fast Threshold: 20
+- Minimum Fast Threshold: 7
+
+Left camera to Imu Transform (Tbc): 
+[0.99997562, -0.00180396, -0.0067423098, 0.0059001301;
+ 0.00182725, 0.99999237, 0.00345061, -0.00601706;
+ 0.0067360299, -0.0034628401, 0.99997133, -0.01519052;
+ 0, 0, 0, 1]
+Do not insert keyframes when lost visual tracking 
+
+IMU frequency: 400 Hz
+IMU gyro noise: 0.000488 rad/s/sqrt(Hz)
+IMU gyro walk: 0.006986 rad/s^2/sqrt(Hz)
+IMU accelerometer noise: 0.00147 m/s^2/sqrt(Hz)
+IMU accelerometer walk: 0.00147 m/s^3/sqrt(Hz)
+There are 1 cameras in the atlas
+Camera 0 is pinhole
+Stage1: MonocularInitialization
+Stage1: MonocularInitialization
+Stage1: MonocularInitialization
+Stage1: MonocularInitialization
+Stage1: MonocularInitialization
+Stage1: MonocularInitialization
+Starting the Viewer
+Stage1: MonocularInitialization
+Stage1: MonocularInitialization
+Stage1: MonocularInitialization
+Stage1: MonocularInitialization
+Stage1: MonocularInitialization
+Stage1: MonocularInitialization
+Stage1: MonocularInitialization
+Stage1: MonocularInitialization
+Stage1: MonocularInitialization
+Stage1: MonocularInitialization
+Stage1: MonocularInitialization
+Stage1: MonocularInitialization
+Stage1: MonocularInitialization
+Stage1: MonocularInitialization
+Stage1: MonocularInitialization
+Stage1: MonocularInitialization
+First KF:0; Map init KF:0
+New Map created with 433 points
+Stage1: MonocularInitialization
+Fail to track local map!
+IMU is not or recently initialized. Reseting active map...
+SYSTEM-> Reseting active map in monocular case
+Stop()...
+LM: Active map reset recieved
+LM: Active map reset, waiting...
+LM: Reseting current map in Local Mapping...
+LM: End reseting Local Mapping...
+LM: Reset free the mutex
+LM: Active map reset, Done!!!
+mnFirstFrameId = 22
+mnInitialFrameId = 0
+23 Frames set to lost
+Stage1: MonocularInitialization
+Stage1: MonocularInitialization
+Stage1: MonocularInitialization
+First KF:4; Map init KF:0
+New Map created with 286 points
+Stage1: MonocularInitialization
+Stage2 InertialOptimization ...
+InertialOptimization: -0.0033509887289255857,-0.0033154003322124481, 0.0025871684774756432, 0.0010223437566310167, 0.00081972347106784582,-0.0015087556093931198
+Stage3 FullInertialBA ...
+FullInertialBA: -0.0033509887289255857,-0.0033154003322124481, 0.0025871684774756432, 0.0010223437566310167, 0.00081972347106784582,-0.0015087556093931198
+Map updated!
+start VIBA 1
+Stage2 InertialOptimization ...
+InertialOptimization: -0.0039096497930586338,-0.0028896196745336056, 0.0026315094437450171,-0.015942905098199844,-0.085335880517959595, 0.022591134533286095
+Stage3 FullInertialBA ...
+FullInertialBA: -0.0039096497930586338,-0.0028896196745336056, 0.0026315094437450171,-0.015942905098199844,-0.085335880517959595, 0.022591134533286095
+Map updated!
+end VIBA 1
+start VIBA 2
+Stage2 InertialOptimization ...
+InertialOptimization: -0.0030674515292048454,-0.0033699660561978817, 0.0020649577490985394,-0.050279296934604645,-0.10601746290922165, 0.089565329253673553
+Stage3 FullInertialBA ...
+FullInertialBA: -0.0030674515292048454,-0.0033699660561978817, 0.0020649577490985394,-0.050279296934604645,-0.10601746290922165, 0.089565329253673553
+Map updated!
+end VIBA 2
+menuStop()...
+Shutdown
+just wait for 10 seconds
+0
+System shutdown!
+Vocabulary/ORBvoc.txt
+Starting to write the save binary file
+End to write save binary file
+
+Saving trajectory to CameraTrajectory.txt ...
+There are 1 maps in the atlas
+  Map 0 has 43 KFs
+
+End of saving trajectory to CameraTrajectory.txt ...
+
+Saving keyframe trajectory to KeyFrameTrajectory.txt ...
+
+1......
+
+2......
